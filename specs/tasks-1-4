@@ -18,8 +18,9 @@
   - marta
   needs to know: 
     flexbox ID: flex-puzzle
-    css editor ID: user-css
-    apply button ID: inject-user-css
+    css editor ID: editor-field
+    apply button ID: apply-btn
+    shuffle button ID: shuffle-btn
   actually 2 functions
     one that writes to the website's css
       injecting user css
