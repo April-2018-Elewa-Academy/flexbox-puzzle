@@ -20,6 +20,11 @@
     flexbox ID: flex-puzzle
     css editor ID: user-css
     apply button ID: inject-user-css
+  actually 2 functions
+    one that writes to the website's css
+      injecting user css
+      loading a new challenge
+    one that reads from the input div
 
 4: create flexbox shufflers & unshuffle
   - jake: 9-1, 16-1, 25-1
