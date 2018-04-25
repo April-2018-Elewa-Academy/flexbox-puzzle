@@ -49,10 +49,11 @@
  
 repo structure
     - this repository
+    /specs
+      tasks 1-4
     html
-    css original
-    /data
-      /images
-      /puzzles (save your puzzles as javascript String variables named after your challenge)
-    /services (handler/logic/listeners grouped by user story)
+    css 
+    /images (data) 
+    /puzzles (save your puzzles as javascript String variables named after your challenge) (data)
+    /services (handler/logic/listeners grouped by user story)(interactions)
 
