@@ -25,11 +25,12 @@
     css editor ID: editor-field
     apply button ID: apply-btn
     shuffle button ID: shuffle-btn
-  actually 2 functions
+  actually 3 functions
     one that writes to the website's css
       injecting user css
       loading a new challenge
     one that reads from the input div
+    one that replaces html for puzzles of 16 and 25 pieces
 
 4: create flexbox shufflers & unshuffle
   - jake: 9-1, 16-1, 25-1
