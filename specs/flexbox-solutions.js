@@ -19,6 +19,7 @@
 9-3:
 #pond {
 	display: flex;
+	flex-direction: row;
 	flex-direction: row-reverse;
 }
 
