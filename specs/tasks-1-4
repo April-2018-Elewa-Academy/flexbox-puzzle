@@ -51,6 +51,8 @@ repo structure
     - this repository
     html
     css original
-    model.js (stores images & css solutions)
+    /data
+      /images
+      /puzzles (save your puzzles as javascript String variables named after your challenge)
     /services (handler/logic/listeners grouped by user story)
 
