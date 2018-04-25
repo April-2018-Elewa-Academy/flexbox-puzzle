@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./images/favicon.png">
+
+    <title>Awesome Puzzle</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+
+    <div id="container" style="max-height: 450px" class="bg-light position-relative overflow-hidden p-1 p-md-1 m-md-3 text-center">
+      
+        <img style="background-color: rgba(0 0,0, o.5)" src="./images/puzzle2.jpg" class="w-100" alt="">
+        <div id="name" class="row">Awesome Puzzle</div>
+     </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+
+      <div id="flex-puzzle" class=" bg-dark mr-md-5 pt-1 px-1 pt-md-5 px-md-1 text-center overflow-hidden text-warning">
+        
+              <!-- <img id="flex-child" src="./9/9_1.jpg" alt="">
+              <img id="flex-child" src="./9/9_2.jpg" alt="">
+              <img id="flex-child" src="./9/9_3.jpg" alt="">
+              <img id="flex-child" src="./9/9_4.jpg" alt="">
+              <img id="flex-child" src="./9/9_5.jpg" alt="">
+              <img id="flex-child" src="./9/9_6.jpg" alt="">
+              <img id="flex-child" src="./9/9_7.jpg" alt="">
+              <img id="flex-child" src="./9/9_8.jpg" alt="">
+              <img id="flex-child" src="./9/9_9.jpg" alt=""> -->
+
+              <img class="col-sm-3 flex-child" id="1" src="./9/9_1.jpg" alt="">
+              <img class="col-sm-3 flex-child" id="2" src="./9/9_2.jpg" alt="">
+              <img class="col-sm-3 flex-child" id="3" src="./9/9_3.jpg" alt="">
+              <img class="col-sm-3 flex-child" id="4" src="./9/9_4.jpg" alt="">
+              <img class="col-sm-3 flex-child" id="5" src="./9/9_5.jpg" alt="">
+              <img class="col-sm-3 flex-child" id="6" src="./9/9_6.jpg" alt="">
+              <img class="col-sm-3 flex-child" id="7" src="./9/9_7.jpg" alt="">
+              <img class="col-sm-3 flex-child" id="8" src="./9/9_8.jpg" alt="">
+              <img class="col-sm-3 flex-child" id="9" src="./9/9_9.jpg" alt="">
+      </div>
+
+      <div class="bg-primary mr-md-1 pt-1 px-3 pt-md-5 px-md-3 text-center overflow-hidden">
+        <div class="my-1 p-1">
+          <img class="col-sm-11" style="max-height: 600px" src="./images/slave.jpg" alt="">
+        </div>
+       </div>
+
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+       <div class=""><h4>Put your code here:</h4><textarea id="editor-field" type="text" class="rounded w-50" rows="3"></textarea></div>
+        <div class="my-3 p-3">
+          <button id="apply-btn" type="button" class="btn btn-primary btn-lg mt-2" align="center">APPLY CSS</button>
+        </div>
+      </div>
+
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-3 px-md-5 text-center text-white overflow-hidden">
+        
+          <button id="shuffle-btn" type="button" class="btn btn-info btn-lg mb-5" align="center"> SHUFFLE </button>
+
+          <div class="dropdown" align="right">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SELECT LEVEL
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Easy</a>
+                <a class="dropdown-item" href="#">Medium</a>
+                <a class="dropdown-item" href="#">Hard</a>
+              </div>
+            </div>
+         
+         <div class="col-sm-6 mb-3" align="left"> 
+          <button type="button" class="btn btn-outline-success mt-3">GET A HINT</button>
+          <div class="bg-white p-1 mt-3 rounded text-center text-success border border-success">YOUR HINT</div>
+        </div>
+      </div>
+
+
+    </div>
+
+   
+
+    <footer class="container py-2">
+      <div class="row">
+ 
+        <div class="col-6 col-md">
+          <h5>Created with <img src="./images/heart-3x.png" alt="" class="mb-2"> and JavaScript</h5>
+        </div>
+        <div class="col-6 col-md">
+
+        </div>
+ 
+   
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./assets/js/vendor/popper.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/vendor/holder.min.js"></script>
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+  </body>
+</html>
