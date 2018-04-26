@@ -39,6 +39,10 @@
   3 per image grouping
   everyone makes a couple
 
+flexbox ID: flex-puzzle
+div IDs for images will be numbers in sequence of appearnce of the full image: 
+e.g id="1" (image on top left corner) id="2" (image right next (to the right) of image 1...)
+
 5: compares solution - challenge
   - mariana, marta
   needs to know:
